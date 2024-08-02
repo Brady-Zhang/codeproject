@@ -39,3 +39,6 @@ DEEPLABV3+(MOBILENET) | https://github.com/Brady-Zhang/codeproject
 | 27% of wildscence 2d set | [deeplab_mobilenetv2.pth](https://drive.google.com/file/d/1a_yvh3iUMYchsZqD9VX6fxdOk7CJ4xZM/view?usp=sharing) | 3% of wildscence 2d set | 512x512| 35.01 | 
 ### Environment
 pytorch==2.1.1   
+### Download
+All per-trained weights: https://drive.google.com/file/d/1a_yvh3iUMYchsZqD9VX6fxdOk7CJ4xZM/view?usp=sharing
+Selected dataset from Wildscence: https://drive.google.com/drive/folders/1KFc15zSS_cc2t_an2YYDZHhuhA7BS7MS?usp=sharing
