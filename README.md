@@ -80,7 +80,7 @@ Selected dataset from Wildscence: https://drive.google.com/drive/folders/1KFc15z
 ## Reference
 https://github.com/ggyyzm/pytorch_segmentation  
 https://github.com/bonlime/keras-deeplab-v3-plus
-
+https://github.com/bubbliiiing/unet-pytorch
 
 
 
