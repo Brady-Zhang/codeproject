@@ -20,7 +20,7 @@ U-NET (RESNET50) |
 DEEPLABV3+(XCEPTION) |
 DEEPLABV3+(MOBILENET) |
 
-## Related code
+## Relatedcode
 | model | path |
 | :----- | :----- |
 U-NET (WITH GHOSTCONV AND EMA) | https://github.com/Brady-Zhang/codeproject 
@@ -29,9 +29,8 @@ U-NET (RESNET50) | https://github.com/Brady-Zhang/codeproject
 DEEPLABV3+(XCEPTION) | https://github.com/Brady-Zhang/codeproject
 DEEPLABV3+(MOBILENET) | https://github.com/Brady-Zhang/codeproject
 
-### 性能情况
-**unet并不适合VOC此类数据集，其更适合特征少，需要浅层特征的医药数据集之类的。**
-| 训练数据集 | 权值文件名称 | 测试数据集 | 输入图片大小 | mIOU | 
+### Performance
+| training dataset | per-trained weight | testing dataset | input image size | mIOU | 
 | :-----: | :-----: | :------: | :------: | :------: | 
 | VOC12+SBD | [unet_vgg_voc.pth](https://github.com/bubbliiiing/unet-pytorch/releases/download/v1.0/unet_vgg_voc.pth) | VOC-Val12 | 512x512| 58.78 | 
 | VOC12+SBD | [unet_resnet_voc.pth](https://github.com/bubbliiiing/unet-pytorch/releases/download/v1.0/unet_resnet_voc.pth) | VOC-Val12 | 512x512| 67.53 | 
