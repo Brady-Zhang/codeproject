@@ -23,7 +23,7 @@ DEEPLABV3+(MOBILENET) |
 ## Related code
 | model | path |
 | :----- | :----- |
-U-NET (WITH GHOSTCONV AND EMA) | https://github.com/Brady-Zhang/codeproject/unet  
+U-NET (WITH GHOSTCONV AND EMA) | https://github.com/Brady-Zhang/codeproject 
 U-NET (VGG) | https://github.com/Brady-Zhang/codeproject
 U-NET (RESNET50) | https://github.com/Brady-Zhang/codeproject
 DEEPLABV3+(XCEPTION) | https://github.com/Brady-Zhang/codeproject
