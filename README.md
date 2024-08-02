@@ -32,8 +32,8 @@ DEEPLABV3+(MOBILENET) | https://github.com/Brady-Zhang/codeproject
 ### Performance
 | training dataset | per-trained weight | testing dataset | input image size | mIOU | 
 | :-----: | :-----: | :------: | :------: | :------: | 
-| 27% of wildscence 2d set | [no weight]() | 3% of wildscence 2d set | 512x512| 15.41 | 
-| 27% of wildscence 2d set | [unet_resnet_voc.pth](https://github.com/bubbliiiing/unet-pytorch/releases/download/v1.0/unet_resnet_voc.pth) | 3% of wildscence 2d set | 512x512| 40.43 | 
-| 27% of wildscence 2d set | [unet_vgg_voc.pth](https://github.com/bubbliiiing/unet-pytorch/releases/download/v1.0/unet_vgg_voc.pth) | 3% of wildscence 2d set | 512x512| 42.22 | 
-| 27% of wildscence 2d set | [unet_resnet_voc.pth](https://github.com/bubbliiiing/unet-pytorch/releases/download/v1.0/unet_resnet_voc.pth) | 3% of wildscence 2d set | 512x512| 31.40 | 
-| 27% of wildscence 2d set | [unet_vgg_voc.pth](https://github.com/bubbliiiing/unet-pytorch/releases/download/v1.0/unet_vgg_voc.pth) | 3% of wildscence 2d set | 512x512| 35.01 | 
+| 27% of wildscence 2d set | [no weight] | 3% of wildscence 2d set | 512x512| 15.41 | 
+| 27% of wildscence 2d set | [unet_resnet_voc.pth](https://drive.google.com/file/d/1a_yvh3iUMYchsZqD9VX6fxdOk7CJ4xZM/view?usp=sharing) | 3% of wildscence 2d set | 512x512| 40.43 | 
+| 27% of wildscence 2d set | [unet_vgg_voc.pth](https://drive.google.com/file/d/1a_yvh3iUMYchsZqD9VX6fxdOk7CJ4xZM/view?usp=sharing) | 3% of wildscence 2d set | 512x512| 42.22 | 
+| 27% of wildscence 2d set | [deeplab_xception.pth](https://drive.google.com/file/d/1a_yvh3iUMYchsZqD9VX6fxdOk7CJ4xZM/view?usp=sharing) | 3% of wildscence 2d set | 512x512| 31.40 | 
+| 27% of wildscence 2d set | [deeplab_mobilenetv2.pth](https://drive.google.com/file/d/1a_yvh3iUMYchsZqD9VX6fxdOk7CJ4xZM/view?usp=sharing) | 3% of wildscence 2d set | 512x512| 35.01 | 
