@@ -53,12 +53,18 @@ Selected dataset from Wildscence: https://drive.google.com/drive/folders/1KFc15z
 
 4. run sp.py(/codeproject/unet-pytorch-main/VOCdevkit/VOC2007/sp.py) to spilt the JPEGImages and SegmentationClass files into training and testing set according to the train.txt and val.txt.
 
-
-#### data processing
+#### training and testing 
 ##### U-NET (WITH GHOSTCONV AND EMA)
-1. simplely run main.py in /codeproject/unet/main.py
+1. simplely run main.py in /codeproject/unet/main.py and you will get the predict result as well.
 
-
+##### U-NET (VGG) and U-NET (RESNET50)
+1. download per-trained weights: https://drive.google.com/file/d/1a_yvh3iUMYchsZqD9VX6fxdOk7CJ4xZM/view?usp=sharing
+2. make unet_resnet_voc.pth and unet_vgg_voc.pth under model_data
+3. go to the /codeproject/unet-pytorch-main/train.py, change the backbone to vgg or resnet 50
+4. in /codeproject/unet-pytorch-main/train.py  change the model_path to model_data/unet_resnet_voc.pth or model_data/unet_vgg_voc.pth
+5. run the train.py(/codeproject/unet-pytorch-main/train.py)
+6. after training, go to /codeproject/unet-pytorch-main/unet.py, change the model_path to 'logs/best_epoch_weights.pth' which is the best weight we get from training
+7. go to /codeproject/unet-pytorch-main/get_miou.py and run it, it can have the predictions and miou outputs under /codeproject/unet-pytorch-main/miou_out
 
 ### 预测步骤
 #### 一、使用预训练权重
