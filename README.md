@@ -41,4 +41,5 @@ DEEPLABV3+(MOBILENET) | https://github.com/Brady-Zhang/codeproject
 pytorch==2.1.1   
 ### Download
 All per-trained weights: https://drive.google.com/file/d/1a_yvh3iUMYchsZqD9VX6fxdOk7CJ4xZM/view?usp=sharing
+
 Selected dataset from Wildscence: https://drive.google.com/drive/folders/1KFc15zSS_cc2t_an2YYDZHhuhA7BS7MS?usp=sharing
