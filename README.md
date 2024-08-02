@@ -85,6 +85,16 @@ Selected dataset from Wildscence: https://drive.google.com/drive/folders/1KFc15z
 U-NET (VGG)
 ![trainvis](4981722578630_.pic.jpg)
 
+U-NET (RESNET50)
+![trainvis](4991722578630_.pic.jpg)
+
+DEEPLABV3+(XCEPTION)
+![trainvis](5001722578964_.pic.jpg)
+
+DEEPLABV3+(MOBILENET)
+![trainvis](5011722578964_.pic.jpg)
+
+
 ## Reference
 https://github.com/ggyyzm/pytorch_segmentation  
 https://github.com/bonlime/keras-deeplab-v3-plus
