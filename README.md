@@ -37,3 +37,5 @@ DEEPLABV3+(MOBILENET) | https://github.com/Brady-Zhang/codeproject
 | 27% of wildscence 2d set | [unet_vgg_voc.pth](https://drive.google.com/file/d/1a_yvh3iUMYchsZqD9VX6fxdOk7CJ4xZM/view?usp=sharing) | 3% of wildscence 2d set | 512x512| 42.22 | 
 | 27% of wildscence 2d set | [deeplab_xception.pth](https://drive.google.com/file/d/1a_yvh3iUMYchsZqD9VX6fxdOk7CJ4xZM/view?usp=sharing) | 3% of wildscence 2d set | 512x512| 31.40 | 
 | 27% of wildscence 2d set | [deeplab_mobilenetv2.pth](https://drive.google.com/file/d/1a_yvh3iUMYchsZqD9VX6fxdOk7CJ4xZM/view?usp=sharing) | 3% of wildscence 2d set | 512x512| 35.01 | 
+### Environment
+pytorch==2.1.1   
