@@ -80,7 +80,7 @@ Selected dataset from Wildscence: https://drive.google.com/drive/folders/1KFc15z
 
 
 ## predictions
-![trainvis]()
+![trainvis](4981722578630_.pic.jpg)
 
 ## Reference
 https://github.com/ggyyzm/pytorch_segmentation  
