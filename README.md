@@ -7,7 +7,8 @@
 4. [Environment](#Environment)
 5. [Download](#Download)
 6. [How2train](#How2train)
-7. [Reference](#Reference)
+7. [predictions](#predictions)
+8. [Reference](#Reference)
 
 ## Introduction
 **This repo include five models used for image Segmentation, not include pspnet.**  
@@ -75,7 +76,10 @@ Selected dataset from Wildscence: https://drive.google.com/drive/folders/1KFc15z
 5. in /codeproject/deeplabv3-plus-pytorch-main/train.py  change the model_path to model_data/deeplab_xception_voc.pth or model_data/deeplab_mobilenetv2.pth
 6. run the train.py(/codeproject/deeplabv3-plus-pytorch-main/train.py)
 7. after training, go to /codeproject/deeplabv3-plus-pytorch-main/deeplab.py, change the model_path to 'logs/best_epoch_weights.pth' which is the best weight we get from training
-8. go to /codeproject/deeplabv3-plus-pytorch-main/get_miou.py and run it, it can have the predictions and miou outputs under /codeproject/deeplabv3-plus-pytorch-main/miou_out 
+8. go to /codeproject/deeplabv3-plus-pytorch-main/get_miou.py and run it, it can have the predictions and miou outputs under /codeproject/deeplabv3-plus-pytorch-main/miou_out
+
+
+## predictions
 
 ## Reference
 https://github.com/ggyyzm/pytorch_segmentation  
