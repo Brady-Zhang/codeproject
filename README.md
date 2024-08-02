@@ -80,7 +80,8 @@ Selected dataset from Wildscence: https://drive.google.com/drive/folders/1KFc15z
 
 
 ## predictions
---------------------------actual indexlabel --------------------------------- prediction----------------------------
+--------------------------actual indexlabel --------------------------------------------------- prediction----------------------------
+U-NET (VGG)
 ![trainvis](4981722578630_.pic.jpg)
 
 ## Reference
