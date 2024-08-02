@@ -23,9 +23,11 @@ DEEPLABV3+(MOBILENET) |
 ## Related code
 | model | path |
 | :----- | :----- |
-Unet | https://github.com/Brady-Zhang/codeproject/unet  
-PSPnet | https://github.com/Brady-Zhang/codeproject
-deeplabv3+ | https://github.com/Brady-Zhang/codeproject
+U-NET (WITH GHOSTCONV AND EMA) | https://github.com/Brady-Zhang/codeproject/unet  
+U-NET (VGG) | https://github.com/Brady-Zhang/codeproject
+U-NET (RESNET50) | https://github.com/Brady-Zhang/codeproject
+DEEPLABV3+(XCEPTION) | https://github.com/Brady-Zhang/codeproject
+DEEPLABV3+(MOBILENET) | https://github.com/Brady-Zhang/codeproject
 
 ### 性能情况
 **unet并不适合VOC此类数据集，其更适合特征少，需要浅层特征的医药数据集之类的。**
